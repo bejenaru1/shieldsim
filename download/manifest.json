@@ -1,0 +1,188 @@
+{
+  "app": "ShieldSim",
+  "version": "4.3.0",
+  "build": "2d5009732db7",
+  "date": "2026-10-26",
+  "model": {
+    "name": "shieldsim",
+    "base": "qwen3:8b",
+    "fallback": "qwen3:4b-instruct",
+    "minRamGB": 14,
+    "diskGB": 8,
+    "modelfileSha": "e9098bbaf027cd16aa6cc5ecdd4a48382880b2c3655d4da2dc9ef6df75e4cb64"
+  },
+  "packages": {
+    "offline": {
+      "file": "download/ShieldSim-offline.zip",
+      "bytes": 8918851
+    },
+    "windowsAI": {
+      "file": "download/ShieldSim-AI-Windows.zip",
+      "bytes": 2512
+    }
+  },
+  "files": [
+    {
+      "url": "index.html",
+      "dest": "site/index.html",
+      "sha256": "6e117773d723e68624cff7fd19e01b7eb349a453738f934cf51e3eed944b7712",
+      "bytes": 3119606
+    },
+    {
+      "url": "manifest.webmanifest",
+      "dest": "site/manifest.webmanifest",
+      "sha256": "41788f0cec1d48d13144cd6492b6fb265fbc4e6471633c7a6a2f1948fed665cc",
+      "bytes": 730
+    },
+    {
+      "url": "icon-192.png",
+      "dest": "site/icon-192.png",
+      "sha256": "5964cd0aaa7768b7e322a20116242393b44b19d0e32fa898e6b1614951f33162",
+      "bytes": 35619
+    },
+    {
+      "url": "icon-512.png",
+      "dest": "site/icon-512.png",
+      "sha256": "15f2ae44e0a4328efa4d8619b008d568139681595d25711257cd2441400ffff1",
+      "bytes": 168564
+    },
+    {
+      "url": "apple-touch-icon.png",
+      "dest": "site/apple-touch-icon.png",
+      "sha256": "c412c0330a9a678eb3834794009d1c0f57674edee0a604d2e7cd75b888c4b828",
+      "bytes": 28060
+    },
+    {
+      "url": "maskable-512.png",
+      "dest": "site/maskable-512.png",
+      "sha256": "e17735c00cbabeec4b703a1e31d8abb6052dcf47a99b74cc130ec4ed9238633c",
+      "bytes": 151309
+    },
+    {
+      "url": "paper/ShieldSim-fisa-A4.pdf",
+      "dest": "site/paper/ShieldSim-fisa-A4.pdf",
+      "sha256": "3f1db3144fe0df01539ebca6564dee88aa617ec85b2a85bbb13675405ffcec2e",
+      "bytes": 930994
+    },
+    {
+      "url": "paper/ShieldSim-lucrare.pdf",
+      "dest": "site/paper/ShieldSim-lucrare.pdf",
+      "sha256": "d1085a40ca9825ada4eeb2583e65d12522593dc50bd025e329693e01bf2a8d84",
+      "bytes": 1258174
+    },
+    {
+      "url": "paper/ShieldSim-poster-A1.pdf",
+      "dest": "site/paper/ShieldSim-poster-A1.pdf",
+      "sha256": "dcd309a0f6ced67ec4de0b8c950813075e56d5af0111f1f8ac0c96e95a1454e5",
+      "bytes": 4360830
+    },
+    {
+      "url": "paper/pages/fisa/01.webp",
+      "dest": "site/paper/pages/fisa/01.webp",
+      "sha256": "cb53c33337453c5132298843e84a3e1361c101920ec9d8c3af233413dfc49a1d",
+      "bytes": 168818
+    },
+    {
+      "url": "paper/pages/fisa/cover.webp",
+      "dest": "site/paper/pages/fisa/cover.webp",
+      "sha256": "592f67b86c75b6475ff1e1c80fc1fe828034aeb084fc987bc2e264e2e8443a65",
+      "bytes": 45718
+    },
+    {
+      "url": "paper/pages/lucrare/01.webp",
+      "dest": "site/paper/pages/lucrare/01.webp",
+      "sha256": "72174d329240e0d6138015d70f62c25be8b93756c9ec7336f9edd75219caa122",
+      "bytes": 57590
+    },
+    {
+      "url": "paper/pages/lucrare/02.webp",
+      "dest": "site/paper/pages/lucrare/02.webp",
+      "sha256": "4a60dbb0f8580f8fb304fefaafcb06b9256e20887da6a94bf09167d82e3f2702",
+      "bytes": 93974
+    },
+    {
+      "url": "paper/pages/lucrare/03.webp",
+      "dest": "site/paper/pages/lucrare/03.webp",
+      "sha256": "51c1d501949e7bbf1afad1e0e313147878f7c02b930ddc211028ceada495be54",
+      "bytes": 227786
+    },
+    {
+      "url": "paper/pages/lucrare/04.webp",
+      "dest": "site/paper/pages/lucrare/04.webp",
+      "sha256": "42176cb9b1cd85c572e961110ad05597cbcc547e8203562f6491aa8cd08a45df",
+      "bytes": 177456
+    },
+    {
+      "url": "paper/pages/lucrare/05.webp",
+      "dest": "site/paper/pages/lucrare/05.webp",
+      "sha256": "3765f685fdf6a6c87f22bb078c90828a17562053ca89b5d958c25e2eacc36f66",
+      "bytes": 193782
+    },
+    {
+      "url": "paper/pages/lucrare/06.webp",
+      "dest": "site/paper/pages/lucrare/06.webp",
+      "sha256": "4db1ceff59ab3dfae6f44a53498bb8e9dd72dc47535f11b28de3d44c6d927f80",
+      "bytes": 167826
+    },
+    {
+      "url": "paper/pages/lucrare/07.webp",
+      "dest": "site/paper/pages/lucrare/07.webp",
+      "sha256": "fb51c41d08862102a94a50425de540c517abb43f9ff67e201862f430905efcbe",
+      "bytes": 185308
+    },
+    {
+      "url": "paper/pages/lucrare/08.webp",
+      "dest": "site/paper/pages/lucrare/08.webp",
+      "sha256": "8ea5e6a08c77ddfe3488a05d9e1b463d40c3de9880df0c467ecfad9e7c0036cf",
+      "bytes": 138210
+    },
+    {
+      "url": "paper/pages/lucrare/09.webp",
+      "dest": "site/paper/pages/lucrare/09.webp",
+      "sha256": "0a3085bc60f9bb8bb8c8448244da1739fdcdf96837e5e5647ffa2edc8b44a494",
+      "bytes": 174296
+    },
+    {
+      "url": "paper/pages/lucrare/10.webp",
+      "dest": "site/paper/pages/lucrare/10.webp",
+      "sha256": "218453b223c710cac6ce4a37f43b4553d1d039569db8b3d52d2deed4c59e447a",
+      "bytes": 247038
+    },
+    {
+      "url": "paper/pages/lucrare/cover.webp",
+      "dest": "site/paper/pages/lucrare/cover.webp",
+      "sha256": "854686c8259b6516b108395794c1a062cca7af9a30bf8ab79e15418c380e0168",
+      "bytes": 17788
+    },
+    {
+      "url": "paper/pages/poster/01.webp",
+      "dest": "site/paper/pages/poster/01.webp",
+      "sha256": "ad3f26efe27e3f72ac89b06a9dff0bf2a0ef262e4ab2dcd14fb62d3e7451d5ab",
+      "bytes": 468262
+    },
+    {
+      "url": "paper/pages/poster/cover.webp",
+      "dest": "site/paper/pages/poster/cover.webp",
+      "sha256": "db35f53825eca396a966770778fda4a248bae8f9ae6f90344e37b491087ff737",
+      "bytes": 50840
+    },
+    {
+      "url": "download/win/Modelfile",
+      "dest": "Modelfile",
+      "sha256": "e9098bbaf027cd16aa6cc5ecdd4a48382880b2c3655d4da2dc9ef6df75e4cb64",
+      "bytes": 8142
+    },
+    {
+      "url": "download/win/ShieldSim.ps1",
+      "dest": "ShieldSim.ps1",
+      "sha256": "9b285bab8819c5420fc33b1f03f0881302499bb0d9c524e0510aec108cf040de",
+      "bytes": 16251
+    },
+    {
+      "url": "download/win/shieldsim.ico",
+      "dest": "shieldsim.ico",
+      "sha256": "3a0db441ddb0bf9e2eab83303dce55e3f0761ab98a250996e4b478c262091a2c",
+      "bytes": 35641
+    }
+  ]
+}
