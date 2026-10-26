@@ -77,7 +77,7 @@ $$
 \frac{dN}{dx} = \kappa L - \frac{N}{\lambda_n}
 $$
 
-With λ₂ → ∞ and κ = 0 the solution reduces exactly to the familiar attenuation law with a "floor" of secondaries, *H*(*x*) = *H*∞ + (*H*₀ − *H*∞)·e^(−σ*x*).
+With λ₂ → ∞ and κ = 0 the solution reduces exactly to the familiar attenuation law with a "floor" of secondaries, $H(x) = H_\infty + (H_0 - H_\infty)\,e^{-\sigma x}$.
 
 - **Effective dose** parameters are fitted to published Geant4 transport results (Naito & Kodaira 2022) for aluminium and polyethylene; other materials follow from their hydrogen content and atomic number.
 - **Dose equivalent** (the dosimeter curve) keeps the shape of the transport codes and is fitted to the Artemis I and MSL flight data.
