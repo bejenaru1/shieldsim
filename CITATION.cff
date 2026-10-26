@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use ShieldSim, please cite it as below, together with the original measurements and transport studies listed in the paper (paper/ShieldSim-lucrare.pdf)."
+title: "ShieldSim: an interactive space radiation shielding simulator"
+abstract: "Browser-based, one-dimensional engineering model of crew dose (dose equivalent and effective dose) behind multilayer shielding at 36 Solar System locations. Galactic cosmic rays are carried through the shield with a three-component model (primaries, light fragments, neutrons) fitted to published Geant4 transport results; solar particle events come from NASA dose-depth tables. Calibrated on ISS 2016, Curiosity and Chang'e-4, curve shape fitted on MSL cruise and Artemis I, independently validated on ISS 2009-10 and ExoMars TGO (geometric mean model/measured 0.97)."
+type: software
+authors:
+  - family-names: "Pîrvu"
+    given-names: "Mihai Teodor"
+    affiliation: "Liceul Teoretic „Ovidius”, Constanța"
+  - family-names: "Bejenaru"
+    given-names: "Alexandru-Eduard"
+    affiliation: "Liceul Teoretic „Ovidius”, Constanța"
+version: "4.3.0"
+date-released: "2026-10-27"
+license: MIT
+repository-code: "https://github.com/bejenaru1/shieldsim"
+url: "https://bejenaru1.github.io/shieldsim/"
+keywords:
+  - space radiation
+  - radiation shielding
+  - galactic cosmic rays
+  - solar particle events
+  - dosimetry
+  - education
