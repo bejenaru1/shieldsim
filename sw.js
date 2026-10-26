@@ -1,5 +1,5 @@
-// ShieldSim offline cache (20261020204757)
-const CACHE = 'shieldsim-20261020204757';
+// ShieldSim offline cache (20261026221045)
+const CACHE = 'shieldsim-20261026221045';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
